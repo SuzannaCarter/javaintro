@@ -8,7 +8,7 @@ public class MyMainClass {
 		System.out.println(other.getFullName("Suzanty"));
 		
 		int j = 16;
-		
+		//change
 		computeValue(j);
 		
 		System.out.println(j);
