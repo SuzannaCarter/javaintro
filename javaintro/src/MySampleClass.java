@@ -1,15 +1,10 @@
 
 public class MySampleClass {
 
-	public static void main(String[] args) {
-
-		
+	public static void main(String[] args) {	
 		 doMathOps();
 		splitString();
-		mutateStrings();
-
-		
-		
+		mutateStrings();	
 	}
 
 	private static void splitString() {
