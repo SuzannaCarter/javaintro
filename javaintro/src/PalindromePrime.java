@@ -15,6 +15,7 @@ public class PalindromePrime {
 		for (int num = 2; counter < 100; num++) {
 			if (isPalindrome(num) && isPrime(num)) {
 				
+				//print 10 to a line
 				if (counter%10==0)
 					System.out.print('\n');	
 				
