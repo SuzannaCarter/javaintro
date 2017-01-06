@@ -1,3 +1,6 @@
+// this program sorts matricies by column
+// similar to row sorting program from lab
+
 import java.util.Scanner;
 
 public class ColumnSorting {
@@ -29,6 +32,7 @@ public class ColumnSorting {
 		}
 	}
 
+	// sorts by column
 	public static double[][] sortColumns(double[][] m) {
 		double[][] result = new double[m.length][m[0].length];
 		double[] column = new double[m.length];

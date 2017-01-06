@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class IdenticalArrays {
 	public static void main(String[] args) {
-		
+		while (true) {
 		java.util.Scanner input = new java.util.Scanner(System.in);
 		System.out.println("Enter a 3x3 matrix: ");
 		int[][] list1 = new int[3][3];
@@ -24,8 +24,19 @@ public class IdenticalArrays {
 		} else {
 			System.out.println("Two lists are not identical");
 		}
+		
+		System.out.println("Would you like to restart? Enter y or n: ");
+		String goAgain = input.next();
+		if (goAgain.equalsIgnoreCase("y"))
+			continue;
+		else if (goAgain.equalsIgnoreCase("n"))
+			break;
+		else {
+			System.out.println("Invalid input. Ending program.");
+			break;
+		}
 	}
-
+	}
 	public static boolean equals(int[][] list1, int[][] list2) {
 
 		

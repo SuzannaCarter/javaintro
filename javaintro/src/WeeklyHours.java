@@ -1,3 +1,6 @@
+// this program reads a 2d array
+// prints out employees in order of their hours
+
 import java.util.Scanner;
 
 public class WeeklyHours {
@@ -25,6 +28,7 @@ public class WeeklyHours {
 		}
 	}
 
+	// sorts employees
 	public static void selectionSort(int[][] list) {
 		for (int i = 0; i < list.length - 1; i++) {
 			int min = list[i][1];
